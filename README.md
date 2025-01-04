@@ -11,25 +11,27 @@ Il permet de créer un fichier CSV contenant le nombre de grilles souhaitées et
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-2. Clonez le dépôt :
+2. Cloner le dépôt :
 ```bash
 git clone https://github.com/clementgitteau/predifoot.git
 cd predifoot
 ```
 
-3. Créez un environnement virtuel Python :
+3. Créer un environnement virtuel Python :
 ```bash
 uv venv --python 3.12 .venv
 source .venv/bin/activate  # Sur Windows : venv\Scripts\activate
 ```
 
-4. Installez les dépendances :
+4. Installer les dépendances :
 ```bash
 uv sync
 ```
 
 ## ⚙️ Configuration
 **Préparer le fichier de configuration YAML :**
+
+Créer un fichier de configuration _config.yaml_ à partir du fichier _config_exemple.yaml_.
 
 Le fichier de configuration doit contenir :
 

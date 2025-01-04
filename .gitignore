@@ -11,6 +11,9 @@ wheels/
 # Environnements virtuels
 .venv
 
+# Fichier config
+config.yaml
+
 # Répertoire des résultats, conservé vide
 resultats/*
 !resultats/.gitkeep
