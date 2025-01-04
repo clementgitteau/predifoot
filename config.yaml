@@ -1,0 +1,21 @@
+# Liste des probabilités des matchs
+probabilites_matchs:
+  "FC Barcelone vs Atl. Madrid": [0.46, 0.24, 0.28]  # Match 1
+  "Osasuna vs Ath. Bilbao": [0.26, 0.28, 0.45]       # Match 2
+  "Genoa vs Naples": [0.20, 0.25, 0.55]              # Match 3
+  "Lecce vs Lazio Rome": [0.21, 0.24, 0.55]          # Match 4
+  "Moreirense vs FC Porto": [0.13, 0.22, 0.64]       # Match 5
+  "Leverkusen vs Fribourg": [0.65, 0.18, 0.16]       # Match 6
+  "Crystal Palace vs Arsenal": [0.17, 0.22, 0.59]    # Match 7
+  "Everton vs Chelsea": [0.21, 0.22, 0.55]           # Match 8
+  "Tottenham vs Liverpool": [0.24, 0.22, 0.52]       # Match 9
+  "AS Rome vs Parme": [0.59, 0.21, 0.19]             # Match 10
+  "Real Madrid vs FC Séville": [0.66, 0.18, 0.15]    # Match 11
+  "Bordeaux vs Rennes": [0.09, 0.17, 0.73]           # Match 12
+  "St Etienne vs Marseille": [0.15, 0.21, 0.63]      # Match 13
+  "Lens vs Paris SG": [0.21, 0.23, 0.55]             # Match 14
+
+# Autres paramètres
+parametres_generaux:
+  chemin_sortie: "./resultats"
+  lien_grille: "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/1855"
