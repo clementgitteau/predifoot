@@ -1,7 +1,8 @@
 # ⚽ PREDIFOOT
 
 ## 📝 Description
-Ce projet permet d’automatiser la création des grilles Loto Foot et le remplissage sur le site Parions Sport via Selenium. 
+Ce projet permet d’automatiser la création des grilles Loto Foot et le remplissage sur le site Parions Sport via Selenium.
+
 Il permet de créer un fichier CSV contenant le nombre de grilles souhaitées et de les remplir automatiquement.
 
 ## 📦 Installation
@@ -29,7 +30,9 @@ uv sync
 
 ## ⚙️ Configuration
 **Préparer le fichier de configuration YAML :**
+
 Le fichier de configuration doit contenir :
+
     - Les probabilités des résultats des matchs
     - Le répertoire dans lequel seront sauvegardées les grilles à jouer
     - Le lien vers la page web de la grille LotoFoot
@@ -42,9 +45,8 @@ python -m generer_grilles.py --config config.yaml --nombre-grilles 8
 
 2. **Remplissage automatique des grilles :**
 ```bash
-python -m remplir_grilles.py --config config.yaml
+python -m remplir_grilles.py --config config.yaml --fichier_predictions ./resultats/liste_xxx.csv
 ```
-
 
 ## 📋 Prérequis
 - **Python** >= 3.12
@@ -75,5 +77,7 @@ predifoot/
 
 ## 👨🏻‍💻 Contributeurs
 GITTEAU Clément - gitteauclement@gmail.com
+
 GITTEAU Sidney - gitteau.sidney@gmail.com
+
 Pour toute question ou suggestion, n'hésitez pas à nous contacter !
