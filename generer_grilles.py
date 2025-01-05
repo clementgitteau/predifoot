@@ -67,7 +67,7 @@ def generer_grilles(probabilites: dict, nombre_grilles: int) -> tuple:
 
     while len(grilles) < nombre_grilles:
         grille = generer_une_grille(probabilites)
-        if est_grille_valide(grille):
+        if est_grille_valide(grille) and grille not in grilles:
             grilles.append(grille)
             # Mettre à jour le compte des résultats
             for match, resultat in zip(probabilites.keys(), grille):
